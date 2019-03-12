@@ -1,0 +1,80 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-position: center;
+  background-image: url(header.jpg);
+  background-size: cover;
+  height: 100%;
+  }
+
+  .my-auto {
+    padding-top: 200px;
+  }
+
+  .startup-text {
+    color: rgb(131, 160, 160);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 200px;
+  }
+  
+  .position {
+    text-align: center;
+  }
+
+  hr {
+  max-width: 75px;
+  border-width: 2.5px;
+  border-color: #F05F44; 
+  margin-bottom: 30px;
+  }
+
+  .btn {
+    border-radius: 300px;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+
+  .btn-danger {
+    border-color: #F05F44; 
+    transition: 1s;
+  }
+  
+  .btn-danger:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  main {
+    background: #f9f4f3
+  }
+
+  .img-review {
+    width: 250px;
+    height: 160px;
+    margin: 50px 10px;
+    border-radius: 50px;
+  }
+
+  .reviews{
+    margin-top: 50px;
+  }
+
+  .reviews .author {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
